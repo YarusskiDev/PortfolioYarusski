@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .circle {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db; /* Cor do círculo */
+            border-radius: 50%; /* Torna o elemento um círculo */
+            position: relative;
+            margin: 50px; /* Ajuste conforme necessário */
+        }
+
+        .text {
+            position: absolute;
+            color: #fff; /* Cor do texto */
+            font-size: 14px; /* Ajuste conforme necessário */
+            font-weight: bold;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .text span {
+            display: block;
+            transform-origin: 0 100%;
+            white-space: nowrap;
+        }
+
+        .text span:nth-child(1) { transform: rotate(-30deg); }
+        .text span:nth-child(2) { transform: rotate(-60deg); }
+        .text span:nth-child(3) { transform: rotate(-90deg); }
+        .text span:nth-child(4) { transform: rotate(-120deg); }
+        .text span:nth-child(5) { transform: rotate(-150deg); }
+        .text span:nth-child(6) { transform: rotate(150deg); }
+        .text span:nth-child(7) { transform: rotate(120deg); }
+        .text span:nth-child(8) { transform: rotate(90deg); }
+        .text span:nth-child(9) { transform: rotate(60deg); }
+        .text span:nth-child(10) { transform: rotate(30deg); }
+        .text span:nth-child(11) { transform: rotate(0deg); }
+    </style>
+    <title>Text Around Circle</title>
+</head>
+<body>
+    <a href="https://wa.me/15551234567">Enviar mensagem via WhatsApp</a>
+    <div class="circle">
+        <div class="text">
+            <span>E</span>
+            <span>x</span>
+            <span>p</span>
+            <span>e</span>
+            <span>r</span>
+            <span>i</span>
+            <span>e</span>
+            <span>n</span>
+            <span>c</span>
+            <span>i</span>
+            <span>a</span>
+        </div>
+    </div>
+</body>
+</html>

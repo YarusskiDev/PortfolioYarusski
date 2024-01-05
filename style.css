@@ -1,0 +1,186 @@
+/* *{
+    color: black;
+} */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    gap: 0px 10px;
+    justify-content: space-evenly;
+}
+
+header li a {
+    padding: 10px 30px;
+    line-height: 33px;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    padding-left: 30px;
+}
+
+main {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 400px 600px;
+    justify-content: center;
+}
+
+main img {
+    max-width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+main div {
+    display: grid;
+}
+
+main h1 {
+    justify-self: center;
+    align-self: center;
+}
+
+section .descricao {
+    padding: 10px;
+}
+
+section p:first-child {
+    /* background-color: rgb(228, 162, 241); */
+    padding: 10px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 4rem;
+    align-self: center;
+}
+
+section {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 400px 600px;
+    justify-content: center;
+    justify-items: center;
+}
+
+section strong {
+    color: rgb(163, 124, 179);
+}
+
+section p {
+    font-family: none;
+}
+
+section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+section li:last-child {
+
+    grid-column: 3;
+}
+
+.habilidades .DeixarNoMeio {
+    justify-self: center;
+    grid-column: 2;
+}
+
+.xpTrabalhos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.habilidades lu {
+    align-items: start;
+}
+
+.containerExperiencias {
+    border: 1px solid pink;
+    border-radius: 3px;
+}
+
+.containerFormacoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.listaFormacoes ul {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media(max-width:800px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header li {
+        background-color: #f5f5f5;
+        border-radius: 4px;
+    }
+
+    header a {
+        color: black;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
