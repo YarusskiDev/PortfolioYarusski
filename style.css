@@ -279,6 +279,20 @@ section li:last-child {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .subtituloResponsivo {
+        word-break: break-all;
+        width: 5ch;
+    }
+
+    .listaFormacoes {
+        flex-wrap: wrap;
+
+    }
+
+    .whats {
+        bottom: 30px;
+    }
 }
 
 @keyframes corTransicao {
