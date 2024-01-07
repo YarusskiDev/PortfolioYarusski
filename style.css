@@ -8,6 +8,7 @@ body {
     background-color: #141414;
     color: white;
     box-sizing: border-box;
+    position: relative;
 }
 
 h1,
@@ -111,8 +112,31 @@ section ul {
 
 }
 
+footer {
+    margin-top: 20px;
+}
+
+.subtitulo {
+    text-shadow: #f5f5f5 -0px 0px 47px;
+}
+
+/* .nome {
+    font-family: 'Brush Script MT', cursive;
+} */
+
+.whats {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    /* background-color: yellow; */
+}
+
 .introducao {
     animation: corTransicao 5s infinite;
+    text-shadow: #f5f5f5 -0px 0px 47px;
+    color: black;
 }
 
 section li:last-child {
@@ -190,6 +214,36 @@ section li:last-child {
     display: block;
     position: absolute;
     left: -36px;
+}
+
+.footerIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.rodape {
+    background-color: #000000;
+    color: white;
+}
+
+/* .containerIcons {
+    display: grid;
+    grid-template-columns: auto;
+} */
+
+.linhaIcon {
+    display: flex;
+    gap: 0px 12px;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.containerIcons:first-child {
+    padding-top: 30px;
+}
+
+.frase {
+    text-align: center;
 }
 
 @media(max-width:800px) {
