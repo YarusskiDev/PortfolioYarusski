@@ -287,11 +287,15 @@ section li:last-child {
 
     .listaFormacoes {
         flex-wrap: wrap;
-
+        gap: 5px 0px;
     }
 
     .whats {
         bottom: 30px;
+    }
+
+    .containerIdiomas {
+        justify-content: start;
     }
 }
 
