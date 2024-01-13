@@ -302,6 +302,14 @@ section li:last-child {
     .containerIdiomas {
         justify-content: start;
     }
+
+    .containerExperiencias {
+        transition: 0.1s;
+    }
+
+    .itemsFormacoes:hover {
+        transform: translateY(0px);
+    }
 }
 
 @keyframes corTransicao {
